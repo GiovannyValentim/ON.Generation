@@ -55,7 +55,7 @@ window.addEventListener("DOMContentLoaded", () => {
       mensagem.textContent = "Login realizado com sucesso!";
       mensagem.style.color = "green";
 
-      window.location.href = "dashboard.html";
+      window.location.href = "Dashboard.html";
 
     } catch (error) {
       console.error("Erro signIn:", error);
